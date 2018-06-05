@@ -1,0 +1,25 @@
+### Headers settings
+company: UranCompany
+
+### Xcode project settings
+project_name: Exhibitions
+xcodeproj_path: Phones.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: Phones
+
+# The file path for new modules
+project_file_path: Phones/Modules
+
+# The Xcode group path to new modules
+project_group_path: Phones/Modules
+
+### Dependencies settings section
+podfile_path: Podfile
+
+### Templates
+templates:
+#- {name: local_template_name, local: 'absolute/file/path'}
+#- {name: remote_template_name, git: 'https://github.com/igrekde/remote_template'}
+- {name: viper2}
